@@ -53,3 +53,11 @@ color: black;
   cursor:default;
   transform: scale(1.07);
 }
+
+h1{
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 40px;
+  color: #acfeac;
+  text-shadow: 4px 4px 0 #113d9e;
+
+}
