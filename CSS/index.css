@@ -12,9 +12,9 @@ header {
 a{  display: inline-flex;
     align-items:center;
     color: #ac90ca;
-    font-size: 20px;
-    font-family: "Fira Code"; 
+    font-family: "Fira Code",sans-serif; 
     font-weight: 500;
+    font-size: 20px;
     text-decoration: none;
     margin-right: 30px;
 }
@@ -34,22 +34,4 @@ a:hover:before {
 }
 a:hover{
 color: black;
-}
-
-
-#button {
-    display: inline-block;
-    background-color: #acfeac;
-    box-shadow: 5px 5px 5px #113d9e(0, 21, 255);
-    padding: 18px 20px;
-    margin-right:0px;
-    cursor:default;
-    transition: transform 200ms linear;
-}
-#button:hover {
-  display: inline-block;
-  background-color:#ac90ca;
-  color: #acfeac;
-  cursor:default;
-  transform: scale(1.07);
 }

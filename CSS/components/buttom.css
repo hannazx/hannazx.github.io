@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    background-color: #acfeac;
+    box-shadow: 5px 5px 0px #113d9e;
+    padding: 18px 20px;
+    margin-right:0px;
+    cursor:default;
+    transition: transform 200ms linear;
+    font-family:"Fira Code";
+    font-size: 20px;
+}
+.button:hover {
+  display: inline-block;
+  background-color:#ac90ca;
+  color: #acfeac;
+  cursor:default;
+  transform: scale(1.07);
+}
